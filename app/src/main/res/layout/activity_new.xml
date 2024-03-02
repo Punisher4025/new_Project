@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".New">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/black">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:text="personel info :"
+            android:textColor="#4CAF50"
+            android:textSize="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="calories"
+            android:textSize="100dp"
+            android:gravity="center"
+            android:textColor="#03A9F4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="Dopamine"
+            android:textSize="80dp"
+            android:gravity="center"
+            android:textColor="#2196F3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:textSize="100dp"
+            android:gravity="center"
+            android:text="water%"
+            android:textColor="#2196F3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:textSize="100dp"
+            android:text="energy"
+            android:gravity="center"
+            android:textColor="#2196F3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="Time"
+            android:textSize="100dp"
+            android:gravity="center"
+            android:textColor="#2196F3"/>
+
+        <Button
+            android:id="@+id/exbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
